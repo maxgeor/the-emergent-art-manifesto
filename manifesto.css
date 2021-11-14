@@ -1,0 +1,104 @@
+html {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+body {
+    max-width: 48rem;
+    margin: 0 auto 12rem auto;
+}
+
+nav {
+    margin-top: 1.5rem;
+    margin-left: 2rem;
+}
+
+@media only screen and (max-width: 680px) {
+    nav {
+        margin-left: 1.5rem;
+    }
+}
+
+header > a {
+    font-size: 0.875rem;
+}
+
+main {
+    margin-top: 4rem;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0 2rem;
+}
+
+@media only screen and (max-width: 680px) {
+    header {
+        flex-direction: column;
+        padding: 0 1.5rem;
+    }
+}
+
+.manifesto-details {
+    margin-right: 6rem;
+}
+
+@media only screen and (max-width: 680px) {
+    .manifesto-details {
+        padding-bottom: 1.25rem;
+        margin-right: 0;
+    }
+}
+
+.manifesto-title-container {
+    margin-bottom: 0.5rem;
+}
+
+.manifesto-title {
+    font-size: 3rem;
+    line-height: 1;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    padding: 0;
+    margin: 0; 
+}
+
+.manifesto-details-title {
+    align-self: flex-start;
+    flex-shrink: 0;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    padding: 0 0.5rem 0 0;
+}
+
+#fork-btn > button {
+    font-size: 0.875rem;
+    line-height: 1rem;
+    padding: 0.25rem 0.5rem;
+}
+
+#manifesto {
+    padding: 0 2rem; 
+    margin-top: 3.5rem;
+}
+
+@media only screen and (max-width: 680px) {
+    #manifesto {
+        padding: 0 1.5rem;
+    }
+}
+
+#manifesto > h2 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}

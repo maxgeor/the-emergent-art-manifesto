@@ -6,7 +6,7 @@ html {
 main {
     display: flex;
     justify-content: center;
-    margin-top: 150px;
+    margin-top: 8rem;
 }
 
 article {
@@ -15,5 +15,10 @@ article {
 }
 
 article > * {
-    margin: 0 4px;
+    margin: 0 0.5rem;
+}
+
+article > p {
+    flex-shrink: 0;
+    font-size: 0.875rem;
 }
