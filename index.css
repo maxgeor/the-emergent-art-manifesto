@@ -1,0 +1,19 @@
+html {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+article {
+    display: flex;
+    align-items: baseline;
+}
+
+article > * {
+    margin: 0 4px;
+}
