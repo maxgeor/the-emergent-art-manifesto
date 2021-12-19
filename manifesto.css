@@ -1,7 +1,7 @@
 html {
     font-size: 16px;
     line-height: 24px;
-    font-family: "Times New Roman", Times, serif;
+    font-family: "Times New Roman", Times, serif !important;
 }
 
 .root-link {
@@ -59,7 +59,7 @@ header > a {
 
 main {
     padding: 4rem 0;
-    box-shadow: 0 4px 25px -5px rgb(0 0 0 / 0.09), 0 0 8px -4px rgb(0 0 0 / 0.12);
+    box-shadow: 0 4px 25px -5px rgb(0 0 0 / 0.12), 0 0 8px -4px rgb(0 0 0 / 0.18);
     border: rgba(0 0 0 0.1);
     background-color: white;
     min-height: calc(90vh - 64px);
@@ -161,5 +161,5 @@ button {
     margin-bottom: 1rem;
 }
 #manifesto > p {
-    margin: 1.25rem 0;
+    margin-bottom: 1.25rem;
 }
