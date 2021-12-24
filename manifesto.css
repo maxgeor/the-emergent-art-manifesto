@@ -24,7 +24,7 @@ nav {
     font-size: 1rem;
 }
 
-@media only screen and (max-width: 680px) {
+@media only screen and (max-width: 780px) {
     nav {
         margin: 1rem 0;
     }
@@ -46,7 +46,7 @@ nav > span {
     z-index: -1;
 }
 
-@media only screen and (max-width: 680px) {
+@media only screen and (max-width: 780px) {
     .copied-manifesto {
         margin: 0;
         height: 24px;
@@ -65,7 +65,7 @@ main {
     min-height: calc(90vh - 64px);
 }
 
-@media only screen and (max-width: 680px) {
+@media only screen and (max-width: 780px) {
     main {
         padding: 3rem 0;
     }
@@ -80,7 +80,7 @@ header {
     padding: 0 5rem;
 }
 
-@media only screen and (max-width: 680px) {
+@media only screen and (max-width: 780px) {
     header {
         flex-direction: column;
         padding: 0 1.5rem;
@@ -91,7 +91,7 @@ header {
     margin-right: 6rem;
 }
 
-@media only screen and (max-width: 680px) {
+@media only screen and (max-width: 780px) {
     .manifesto-details {
         padding-bottom: 1.25rem;
         margin-right: 0;
@@ -127,9 +127,14 @@ td {
 .btn-container {
     display: flex;
     flex-direction: column;
+    flex-shrink: 0;
 }
 
-@media only screen and (max-width: 680px) {
+.btn-container > * {
+    flex-shrink: 0;
+}
+
+@media only screen and (max-width: 780px) {
     .btn-container {
         flex-direction: column;
     }
@@ -147,7 +152,7 @@ button {
     margin: 0 3.5rem;
 }
 
-@media only screen and (max-width: 680px) {
+@media only screen and (max-width: 780px) {
     #manifesto {
         padding: 1rem;
         margin: 0 0.5rem;
