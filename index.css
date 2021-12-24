@@ -1,12 +1,14 @@
 html {
     font-size: 16px;
     line-height: 24px;
+    background-color: #fafafa;
+    font-family: "Times New Roman", Times, serif;
 }
 
 main {
     display: flex;
     justify-content: center;
-    margin-top: 150px;
+    margin-top: 4rem;
 }
 
 article {
@@ -15,5 +17,10 @@ article {
 }
 
 article > * {
-    margin: 0 4px;
+    margin: 0 0.3rem;
+}
+
+article > p {
+    flex-shrink: 0;
+    font-size: 0.875rem;
 }

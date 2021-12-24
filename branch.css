@@ -1,0 +1,125 @@
+
+.manifesto-title-container {
+    margin-bottom: 1.25rem;
+}
+
+.manifesto-branch-title {
+    font-size: 2rem;
+    line-height: 2rem;
+}
+
+.manifesto-description {
+    font-size: 14px;
+    line-height: 20px;
+    color: rgb(72, 72, 72);
+}
+
+.title-your-manifesto {
+    font-size: 2.25rem;
+    line-height: 1;
+    margin-left: -0.1rem;
+}
+
+@media only screen and (max-width: 780px) {
+    .title-your-manifesto {
+        font-size: 2rem;
+        line-height: 1;
+        margin-left: -0.1rem;
+    }
+}
+
+.manifesto-number {
+    display: flex;
+    align-items: center;
+}
+
+.manifesto-number > a {
+    text-decoration-thickness: 2px;
+    text-underline-offset: 2px;
+}
+
+.title-pointer {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    margin: 0 1.25rem;
+}
+
+@media only screen and (max-width: 780px) {
+    .title-pointer {
+        font-size: 1.25rem;
+        line-height: 1.5rem;
+        margin: 0 0.95rem;
+    }
+}
+
+.manifesto-branched-number {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-left: 0.175rem;
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: column;
+}
+
+@media only screen and (max-width: 780px) {
+    .btn-container {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+#mint-btn {
+    margin-bottom: 0.5rem;
+}
+
+@media only screen and (max-width: 780px) {
+    #mint-btn {
+        margin-right: 0.5rem;
+        margin-bottom: 0;
+    }
+}
+
+.manifesto-notice {
+    border: 1px solid #d5d5d5;
+    border-bottom: 0;
+    padding: 1.25rem 1.5rem;
+    margin: 0 3.5rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    background-color: #f5f5f5;
+    border-radius: 3px 3px 0 0;
+}
+
+@media only screen and (max-width: 780px) {
+    .manifesto-notice {
+        padding: 1rem;
+        margin: 0 0.5rem;
+    }
+}
+
+#manifesto:hover {
+    border: 1px solid #c0c0c0;
+}
+
+#manifesto:focus {
+    border: 1px solid #9F9F9F;
+    outline: 3px solid rgba(0, 0, 0, 0.05);
+}
+
+#manifesto {
+    outline: none;
+    border: 1px solid #d5d5d5;
+    border-top: 1px solid #e3e3e3;
+    padding: 1.5rem;
+    margin: 0 3.5rem;
+    border-radius: 0 0 3px 3px;
+}
+
+@media only screen and (max-width: 780px) {
+    #manifesto {
+        padding: 1.25rem 1rem;
+        margin: 0 0.5rem;
+    }
+}
