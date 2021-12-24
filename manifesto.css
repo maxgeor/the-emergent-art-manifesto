@@ -76,7 +76,7 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
-    margin-bottom: 4rem;
+    margin-bottom: 3.5rem;
     padding: 0 5rem;
 }
 
@@ -99,7 +99,7 @@ header {
 }
 
 .manifesto-title-container {
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.75rem;
 }
 
 .manifesto-number {

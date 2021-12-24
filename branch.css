@@ -1,6 +1,22 @@
+
+.manifesto-title-container {
+    margin-bottom: 1.25rem;
+}
+
 .manifesto-branch-title {
     font-size: 2rem;
     line-height: 2rem;
+}
+
+.manifesto-details {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.title-your-manifesto {
+    font-size: 2.25rem;
+    line-height: 1;
+    margin-left: -0.1rem;
 }
 
 .manifesto-number {
