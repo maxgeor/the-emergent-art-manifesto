@@ -45,7 +45,7 @@ nav > span {
 .copied-manifesto {
     height: 28px;
     margin: 0 2rem;
-    box-shadow: 0 4px 25px -5px rgb(0 0 0 / 0.1), 0 0 8px -4px rgb(0 0 0 / 0.22);
+    box-shadow: 0 4px 25px -5px rgb(0 0 0 / 0.09), 0 0 8px -4px rgb(0 0 0 / 0.22);
     background-color: white;
     z-index: -1;
 }
@@ -63,7 +63,7 @@ header > a {
 
 main {
     padding: 4rem 0;
-    box-shadow: 0 4px 25px -5px rgb(0 0 0 / 0.1), 0 0 8px -4px rgb(0 0 0 / 0.22);
+    box-shadow: 0 4px 25px -5px rgb(0 0 0 / 0.09), 0 0 8px -4px rgb(0 0 0 / 0.22);
     border: rgba(0 0 0 0.1);
     background-color: white;
     min-height: calc(90vh - 64px);
