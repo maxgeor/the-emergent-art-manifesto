@@ -1,0 +1,32 @@
+body {
+    background-color: #f5f5f5;
+    max-width: 52rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#manifesto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    box-shadow: 0 4px 25px rgb(0 0 0 / 0.08), 0 0 8px -4px rgb(0 0 0 / 0.19);
+    height: 9rem;
+    width: 6rem;
+    padding: 1.5rem 2rem;
+    flex-shrink: 0;
+    margin-bottom: 2rem;
+}
+
+.manifesto-number {
+    font-size: 3.5rem;
+    line-height: 1;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 4px;
+    color: #0000ee;
+    margin-top: -1rem;
+
+}
