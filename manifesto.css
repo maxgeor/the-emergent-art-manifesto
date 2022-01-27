@@ -1,6 +1,7 @@
 html {
     font-size: 16px;
     line-height: 24px;
+    margin: 0;
 }
 
 p {
@@ -19,9 +20,21 @@ p {
 }
 
 body {
-    max-width: 52rem;
-    margin: 0 auto;
+    display: flex;
     background-color: #f5f5f5;
+    margin: 0;
+    height: 100%;
+}
+
+.backdrop-link {
+    display: block;
+    height: 100%;
+    min-height: 100vh;
+    width: calc((100vw - 52rem) / 2);
+}
+
+#content {
+    max-width: 52rem;
 }
 
 nav {
