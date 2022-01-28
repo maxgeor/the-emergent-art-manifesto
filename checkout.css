@@ -11,11 +11,11 @@ body {
 }
 
 .page-wrapper {
-    margin: 0 1.5rem
+    margin: 0 1.5rem 6rem 1.5rem;
 }
 
 nav {
-    margin: 2rem 0 3rem 0;
+    margin: 2rem 0 3.5rem 0;
 }
 
 main {
@@ -27,7 +27,7 @@ main {
     align-items: flex-start;
     justify-content: space-between;
     width: 100%;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 }
 
 @media only screen and (max-width: 780px) {
@@ -56,6 +56,12 @@ h1 {
 
 header > h1 {
     margin-bottom: 1rem;
+}
+
+@media only screen and (max-width: 780px) {
+    header > h1 {
+        margin-bottom: 1rem;
+    }
 }
 
 header > p {
@@ -184,6 +190,13 @@ header > p {
     margin-right: 0.5rem;
 }
 
+.solana-logo-small {
+    width: 1rem;
+    height: 1rem;
+    margin-right: 0.25rem;
+    vertical-align: baseline;
+}
+
 #manifesto-preview {
     overflow: hidden;
     text-overflow: ellipsis;
@@ -214,6 +227,7 @@ header > p {
 
 .checkout-card {
     display: flex;
+    position: relative;
     background-color: white;
     border: 1px solid #e7e7e7;
     box-shadow: 0 2px 12px -4px rgb(0 0 0 / 5%), 0 0 4px -4px rgb(0 0 0 / 10%);
@@ -231,8 +245,20 @@ header > p {
     }
 }
 
+.checkout-card-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255,255,255, 0.6);
+    border-radius: 4px;
+    z-index: 1;
+    cursor: not-allowed;
+}
+
 .checkout-card * b {
-    color: #000;
+    color: #444;
 }
 
 .checkout-card-number {
@@ -261,4 +287,16 @@ button {
     line-height: 1rem;
     padding: 0.25rem 0.5rem;
     margin-top: 1.75rem;
+}
+
+p + .error-message {
+    border-radius: 2px;
+    background-color: #f7eff4;
+    border: 1px solid #e9d9d7;
+    color: #8d5375;
+    padding: 0.5rem 0.75rem;
+    margin-top: 1rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    margin-top: 1rem;
 }

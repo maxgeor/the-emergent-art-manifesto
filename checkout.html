@@ -16,7 +16,7 @@
             <section class="checkout-wrapper">
                 <header>
                     <h1 class="title-your-manifesto">Mint Your Manifesto</h1>
-                    <p>To mint your manifesto, you'll have to pay a fee. Your total will depend on the Solana network's traffic.</p>
+                    <p>Your minting fee can change depending on the Solana network's traffic.</p>
                 </header>
                 <div class="total">
                     <div class="total-title-header">
@@ -33,7 +33,7 @@
                             <h1>30.56</h1>
                         </div>
                         <div class="amount-in-sol">
-                            <img class="solana-logo" src="./solana_logo.png" alt="sol amount">
+                            <img class="solana-logo" src="./solana_logo.png" alt="solana logo">
                             <h3>0.04</h3>
                         </div>
                     </div>
@@ -45,19 +45,24 @@
                         <h2 class="checkout-card-number">1</h2>
                         <div>
                             <h2>Connect your wallet</h2>
-                            <p>You can only mint <b>one manifesto per wallet</b>. If you want to make another one, use a different wallet.</p>
+                            <p>You can only mint <b>1 manifesto per wallet</b>. If you've already minted a manifesto, use a new wallet.</p>
+                            <!-- <p class="error-message">You've already minted a manifesto with that wallet. Try using another wallet.</p>
+                            <p class="error-message">Looks like you stopped your wallet from connecting.</p> -->
                             <div id="connect-wallet-card-button">
                                 <button>Connect wallet</button>
                             </div>
                         </div>
                     </div>
                     <div id="pay-fee-card" class="checkout-card">
+                        <div class="checkout-card-overlay"></div>
                         <h2 class="checkout-card-number">2</h2>
                         <div>
                             <h2>Pay fee</h2>
-                            <p>Pay fee to mint your manifesto.</p>
+                            <p>It'll take a few seconds for your payment to go through.</p>
+                            <!-- <p class="error-message">You don't have enough <img class="solana-logo-small" src="./solana_logo.png" alt="solana logo">SOL to cover the fee. Add some SOL to your wallet then try reconnecting.</p>
+                            <p class="error-message">Looks like you canceled the payment. Try paying the fee again.</p> -->
                             <div id="pay-fee-card-button">
-                                <button>Pay fee</button>
+                                <button>Pay $30.84 USD or 0.04 SOL</button>
                             </div>
                         </div>
                     </div>
