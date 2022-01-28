@@ -18,6 +18,12 @@ nav {
     margin: 2rem 0 3.5rem 0;
 }
 
+@media only screen and (max-width: 780px) {
+    nav {
+        margin-bottom: 3rem;
+    }
+}
+
 main {
     margin-top: 2.5rem;
 }
@@ -44,7 +50,7 @@ header {
 @media only screen and (max-width: 780px) {
     header {
         margin-right: 0;
-        margin-bottom: 3rem;
+        margin-bottom: 2rem;
     }
 }
 
@@ -60,7 +66,7 @@ header > h1 {
 
 @media only screen and (max-width: 780px) {
     header > h1 {
-        margin-bottom: 1rem;
+        margin-bottom: 0.75rem;
     }
 }
 
@@ -84,7 +90,7 @@ header > p {
     align-items: end;
     justify-content: end;
     width: 100%;
-    max-width: 184px;
+    max-width: 192px;
 }
 
 @media only screen and (max-width: 780px) {
@@ -202,12 +208,12 @@ header > p {
     text-overflow: ellipsis;
     background-color: white;
     box-shadow: 0 8px 25px rgb(0 0 0 / 0.12), 0 0 4px -4px rgb(0 0 0 / 0.3);
-    height: 12rem;
-    width: 8rem;
-    padding: 1.25rem 1.75rem;
+    height: 13rem;
+    width: 9rem;
+    padding: 1.25rem 1.5rem;
     flex-shrink: 0;
-    font-size: 0.875rem;
-    line-height: 1.25rem;
+    font-size: 0.75rem;
+    line-height: 1rem;
 }
 
 @media only screen and (max-width: 780px) {
@@ -218,6 +224,10 @@ header > p {
 
 #manifesto-preview > p:first-child {
     margin-top: 0;
+}
+
+#manifesto-preview > p {
+    margin-top: 1rem;
 }
 
 .checkout-cards-wrapper {
@@ -280,6 +290,35 @@ header > p {
 .checkout-card * p {
     margin-top: 0;
     color: #707070;
+}
+
+#manifesto {
+    margin-top: 1.75rem;
+    margin-bottom: 1rem;
+    padding: 1.75rem 2rem;
+    width: calc( - 54px);
+    height: 30rem;
+    border: 1px solid rgb(218, 218, 218);
+    overflow-y: scroll;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    color: #000;
+    border-radius: 2px;
+}
+
+@media only screen and (max-width: 780px) {
+    #manifesto {
+        padding: 1.5rem;
+    }
+}
+
+#manifesto > p:first-child {
+    margin-top: 0;
+}
+
+#manifesto > p {
+    color: #000;
+    margin-bottom: 1rem;
 }
 
 button {
