@@ -24,6 +24,10 @@ nav {
     }
 }
 
+nav > a {
+    color: #0000ee;
+}
+
 main {
     margin-top: 2.5rem;
 }
@@ -235,7 +239,7 @@ header > p {
 }
 
 #manifesto-preview > p {
-    margin-top: 1rem;
+    margin-bottom: 0.75rem;
 }
 
 .checkout-cards-wrapper {
@@ -275,10 +279,6 @@ header > p {
     cursor: not-allowed;
 }
 
-.checkout-card * b {
-    color: #444;
-}
-
 .checkout-card-number {
     margin: 0 1.25rem 0 0;
     font-size: 1.25rem;
@@ -292,18 +292,13 @@ header > p {
     font-size: 1.25rem;
     line-height: 1.75rem;
     font-style: italic;
-    margin-bottom: 0.75rem;
-}
-
-.checkout-card * p {
-    margin-top: 0;
-    color: #707070;
+    margin-bottom: 1rem;
 }
 
 #manifesto {
     margin-top: 1.75rem;
     margin-bottom: 1rem;
-    padding: 1.75rem 2rem;
+    padding: 1.25rem 1.5rem;
     width: calc( - 54px);
     height: 30rem;
     border: 1px solid rgb(218, 218, 218);
@@ -314,19 +309,13 @@ header > p {
     border-radius: 2px;
 }
 
-@media only screen and (max-width: 780px) {
-    #manifesto {
-        padding: 1.5rem;
-    }
-}
-
 #manifesto > p:first-child {
     margin-top: 0;
 }
 
 #manifesto > p {
     color: #000;
-    margin-bottom: 1rem;
+    margin-bottom: 0.875rem;
 }
 
 button {
@@ -347,3 +336,14 @@ p + .error-message {
     line-height: 1.25rem;
     margin-top: 1rem;
 }
+
+.download-wallet-message {
+    margin-top: 0.75rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    color: #707070;
+}
+/* 
+.download-wallet-message > a {
+    color: #707070;
+} */
