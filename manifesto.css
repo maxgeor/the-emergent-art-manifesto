@@ -98,14 +98,14 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
-    margin-bottom: 1.75rem;
+    margin-bottom: 2rem;
     padding: 0 5rem;
 }
 
 @media only screen and (max-width: 780px) {
     header {
         flex-direction: column;
-        margin-bottom: 2.25rem;
+        margin-bottom: 2.5rem;
         padding: 0 1.5rem;
     }
 }
