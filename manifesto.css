@@ -4,10 +4,6 @@ html {
     margin: 0;
 }
 
-p {
-    margin: 0;
-}
-
 .emphasize {
     color: #000;
     font-weight: bold;
@@ -52,11 +48,13 @@ nav {
 }
 
 nav > * {
-    margin: 0 0.3rem;
+    padding: 0 0.5rem;
+    color: #1e1ff0;
 }
 
 nav > span {
     font-size: 0.6rem;
+    padding: 0;
 }
 
 .copied-manifesto {
@@ -98,14 +96,14 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
-    margin-bottom: 2rem;
+    margin-bottom: 1.75rem;
     padding: 0 5rem;
 }
 
 @media only screen and (max-width: 780px) {
     header {
         flex-direction: column;
-        margin-bottom: 2.5rem;
+        margin-bottom: 2.25rem;
         padding: 0 1.5rem;
     }
 }
@@ -120,7 +118,7 @@ header > a {
 
 @media only screen and (max-width: 780px) {
     .manifesto-details {
-        padding-bottom: 1.75rem;
+        padding-bottom: 1.5rem;
         margin-right: 0;
     }
 }
@@ -129,11 +127,24 @@ header > a {
     margin-bottom: 0.75rem;
 }
 
-.manifesto-number {
+.manifesto-title {
     font-size: 2.5rem;
     line-height: 1;
     text-decoration-thickness: 2px;
     text-underline-offset: 2px;
+}
+
+@media only screen and (max-width: 780px) {
+    .manifesto-title {
+        font-size: 2.25rem;
+        line-height: 1;
+        text-decoration-thickness: 2px;
+        text-underline-offset: 2px;
+    }
+}
+
+.manifesto-title > a {
+    color: #1e1ff0;
 }
 
 table {
@@ -143,6 +154,7 @@ table {
 td {
     padding: 0;
     margin: 0; 
+    height: 1.25rem;
 }
 
 .manifesto-details-title {
@@ -151,7 +163,6 @@ td {
     font-size: 0.875rem;
     line-height: 1.25rem;
     padding: 0 0.6rem 0 0;
-    color: #444;
 }
 
 .btn-container {
@@ -198,8 +209,8 @@ button {
     margin-bottom: 1rem;
 }
 
-#manifesto > p {
-    margin-bottom: 1.25rem;
+#manifesto > p:first-child {
+    margin-top: 0;
 }
 
 #manifesto > p:last-child {
