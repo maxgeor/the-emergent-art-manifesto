@@ -328,13 +328,12 @@ button {
 p + .error-message {
     border-radius: 2px;
     background-color: #f7eff4;
-    border: 1px solid #e9d9d7;
+    border: 1px solid #ecdbd8;
     color: #8d5375;
     padding: 0.5rem 0.75rem;
-    margin-top: 1rem;
+    margin-top: 1.25rem;
     font-size: 0.875rem;
     line-height: 1.25rem;
-    margin-top: 1rem;
 }
 
 .download-wallet-message {
