@@ -26,10 +26,17 @@ header {
     padding-left: 2rem;
 }
 
+.manifesto-description > ol > li {
+    margin-bottom: 0.25rem;
+}
+
+.manifesto-description > ol > li:last-child {
+    margin-bottom: 0;
+}
+
 .manifesto-description > ol > li > span {
     position: relative;
     left: 4px;
-    margin-bottom: 0.5rem;
 }
 
 .manifesto-description > ol > li:last-child {
