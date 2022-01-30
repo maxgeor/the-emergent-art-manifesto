@@ -73,7 +73,7 @@ body {
     .copied-manifesto {
         margin: 0;
         height: 24px;
-        box-shadow: 0 4px 25px -5px rgb(0 0 0 / 0.11), 0 0 8px -4px rgb(0 0 0 / 0.19);
+        box-shadow: 0 4px 25px -5px rgb(0 0 0 / 0.15), 0 0 8px -4px rgb(0 0 0 / 0.24);
     }
 }
 
@@ -88,7 +88,7 @@ main {
 @media only screen and (max-width: 780px) {
     main {
         padding: 3rem 0;
-        box-shadow: 0 4px 25px -5px rgb(0 0 0 / 0.11), 0 0 8px -4px rgb(0 0 0 / 0.2);
+        box-shadow: 0 4px 25px -5px rgb(0 0 0 / 0.15), 0 0 8px -4px rgb(0 0 0 / 0.24);
 
     }
 }
@@ -186,8 +186,22 @@ td {
 button {
     font-size: 0.875rem;
     line-height: 1rem;
-    padding: 0.25rem 0.5rem;
+    padding: 0.25rem 0.6rem;
+    height: 1.75rem;
+    background-color: #efefef;
+    border: 1px solid #8a8a8a;
+    border-radius: 2px;
     width: 100%;
+}
+
+button:hover {
+    background-color: #e5e5e5;
+    border: 1px solid #5B5B5B;
+}
+
+button:active {
+    background-color: #f5f5f5;
+    border: 1px solid #9B9B9B;
 }
 
 #manifesto {

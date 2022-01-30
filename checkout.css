@@ -9,7 +9,7 @@ body {
     font-size: 1rem;
     line-height: 1.5rem;
 }
-
+ 
 .page-wrapper {
     margin: 0 1.5rem 6rem 1.5rem;
 }
@@ -292,7 +292,22 @@ header > p {
     font-size: 1.25rem;
     line-height: 1.75rem;
     font-style: italic;
-    margin-bottom: 1rem;
+    margin-bottom: 0.75rem;
+}
+
+.checkout-card-description {
+    color: #444;
+}
+
+.checkout-card-description > b {
+    color: #000;
+}
+
+.checkout-card-note {
+    margin-top: 0.75rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    color: #6D6D6D;
 }
 
 #manifesto {
@@ -314,7 +329,6 @@ header > p {
 }
 
 #manifesto > p {
-    color: #000;
     margin-bottom: 0.875rem;
 }
 
@@ -322,6 +336,10 @@ button {
     font-size: 0.875rem;
     line-height: 1rem;
     padding: 0.25rem 0.5rem;
+    height: 1.75rem;
+    background-color: #efefef;
+    border: 1px solid #8a8a8a;
+    border-radius: 2px;
     margin-top: 1.75rem;
 }
 
@@ -335,14 +353,3 @@ p + .error-message {
     font-size: 0.875rem;
     line-height: 1.25rem;
 }
-
-.download-wallet-message {
-    margin-top: 0.75rem;
-    font-size: 0.875rem;
-    line-height: 1.25rem;
-    color: #6D6D6D;
-}
-/* 
-.download-wallet-message > a {
-    color: #6D6D6D;
-} */
