@@ -152,12 +152,12 @@ header > p {
     color: #6D6D6D;
     text-transform: uppercase;
     margin-right: 0.25rem;
-    letter-spacing: 1px;
+    letter-spacing: 0.85px;
 }
 
 @supports (-webkit-touch-callout: none) {
     * {
-        letter-spacing: 0.75px;
+        letter-spacing: 0.65px;
     }
 }
 
@@ -312,6 +312,12 @@ header > p {
     line-height: 1.75rem;
     font-style: italic;
     margin-bottom: 1rem;
+}
+
+@supports (-webkit-touch-callout: none) {
+    .checkout-card * h2 {
+        letter-spacing: -0.02rem;
+    }
 }
 
 .checkout-card-description {
