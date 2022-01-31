@@ -155,6 +155,12 @@ header > p {
     letter-spacing: 1px;
 }
 
+@supports (-webkit-touch-callout: none) {
+    * {
+        letter-spacing: 0.75px;
+    }
+}
+
 @media only screen and (max-width: 780px) {
     .total-title {
         margin-bottom: 4px;
