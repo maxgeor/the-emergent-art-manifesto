@@ -1,3 +1,9 @@
+@supports (-webkit-touch-callout: none) {
+    * {
+        letter-spacing: -0.01rem;
+    }
+}
+
 header {
     margin-bottom: 3rem;
 }
