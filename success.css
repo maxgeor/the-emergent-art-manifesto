@@ -78,7 +78,7 @@ h1 {
 
 @supports (-webkit-touch-callout: none) {
     h1 {
-        letter-spacing: -1px;
+        letter-spacing: -0.5px;
     }
   }
 
