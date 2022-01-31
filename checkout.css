@@ -362,6 +362,12 @@ button:active {
     color: #000;
 }
 
+@supports (-webkit-touch-callout: none) {
+    button {
+        letter-spacing: normal;
+    }
+}
+
 p + .error-message {
     border-radius: 3px;
     background-color: #f7eff4;
