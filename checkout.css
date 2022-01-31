@@ -121,7 +121,7 @@ header > p {
         align-items: flex-start;
         justify-content: space-between;
         max-width: none;
-        border-top: 1px solid #DFDFDF;
+        border-top: 1px solid #ddd;
         padding-top: 1rem;
     }
 }
@@ -174,7 +174,7 @@ header > p {
 .total-title-rule {
     height: 1px;
     width: 100%;
-    border-top: 1px solid #DFDFDF;
+    border-top: 1px solid #dddddd;
 }
 
 @media only screen and (max-width: 780px) {
