@@ -98,7 +98,6 @@ h1 > br {
 @media only screen and (max-width: 780px) {
     .blurb {
         max-width: 18rem;
-        margin: 0 auto 0.75rem;
     }
 }
 
