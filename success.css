@@ -5,7 +5,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-bottom: 8rem;
+    padding-bottom: 10rem;
 }
 
 #content {
@@ -105,14 +105,13 @@ h1 > br {
 .link-to-your-manifesto {
     font-size: 1.5rem;
         line-height: 2rem;
-        margin-bottom: 1rem;
+        margin-bottom: 0.75rem;
 }
 
 @media only screen and (max-width: 780px) {
     .link-to-your-manifesto {
         font-size: 1.25rem;
         line-height: 1.75rem;
-        margin-bottom: 0.75rem;
     }
 }
 
