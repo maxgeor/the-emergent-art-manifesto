@@ -89,7 +89,7 @@ h1 > br {
     text-align: center;
     color: #6D6D6D;
     max-width: 24rem;
-    margin: 0 auto 1.75rem;
+    margin: 0 auto 1rem;
     font-size: 1rem;
     line-height: 1.5rem;
 }
@@ -97,14 +97,14 @@ h1 > br {
 @media only screen and (max-width: 780px) {
     .blurb {
         max-width: 18rem;
-        margin: 0 auto 1rem;
+        margin: 0 auto 0.75rem;
     }
 }
 
 .link-to-your-manifesto {
     font-size: 1.25rem;
     line-height: 1.75rem;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.75rem;
 }
 
 .link-to-index {
