@@ -45,6 +45,10 @@ body {
     }
 }
 
+#breadcrumbs > li {
+    height: 1.5rem;
+}
+
 #breadcrumbs > li > a {
     padding: 0 0.5rem;
     color: #0000ee;
