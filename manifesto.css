@@ -200,6 +200,12 @@ button {
     width: 100%;
 }
 
+@supports (-webkit-touch-callout: none) {
+    button {
+        letter-spacing: normal;
+    }
+}
+
 button:hover {
     background-color: #e5e5e5;
     border: 1px solid #5B5B5B;
