@@ -157,7 +157,7 @@ header > p {
 
 @supports (-webkit-touch-callout: none) {
     .total-title {
-        letter-spacing: 0.6px;
+        letter-spacing: 0.55px;
     }
 }
 
@@ -219,7 +219,7 @@ header > p {
 @supports (-webkit-touch-callout: none) {
     .amount-in-usd > span {
         font-size: 1.25rem;
-        margin-right: 0.2rem;
+        margin-right: 0.15rem;
     }
 }
 
