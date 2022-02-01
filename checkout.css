@@ -213,13 +213,13 @@ header > p {
 
 .amount-in-usd > span {
     font-size: 1.25rem;
-    margin-right: 0.25rem;
+    margin-right: 0.3rem;
 }
 
 @supports (-webkit-touch-callout: none) {
     .amount-in-usd > span {
         font-size: 1.25rem;
-        margin-right: 0.15rem;
+        margin-right: 0.2rem;
     }
 }
 
