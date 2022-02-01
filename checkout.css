@@ -205,6 +205,12 @@ header > p {
     margin-bottom: 0.25rem;
 }
 
+@supports (-webkit-touch-callout: none) {
+    .amount-in-usd {
+        letter-spacing: -0.03rem;
+    }
+}
+
 .amount-in-usd > span {
     font-size: 1.25rem;
     margin-right: 0.25rem;
