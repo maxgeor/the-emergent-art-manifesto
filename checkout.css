@@ -157,7 +157,7 @@ header > p {
 
 @supports (-webkit-touch-callout: none) {
     .total-title {
-        letter-spacing: 0.65px;
+        letter-spacing: 0.6px;
     }
 }
 
