@@ -207,7 +207,7 @@ header > p {
 
 @supports (-webkit-touch-callout: none) {
     .amount-in-usd > h1 {
-        letter-spacing: -0.04rem;
+        letter-spacing: -0.05rem;
     }
 }
 
