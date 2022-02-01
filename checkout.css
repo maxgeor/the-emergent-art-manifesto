@@ -216,6 +216,13 @@ header > p {
     margin-right: 0.25rem;
 }
 
+@supports (-webkit-touch-callout: none) {
+    .amount-in-usd > span {
+        font-size: 1.25rem;
+        margin-right: 0.2rem;
+    }
+}
+
 .amount-in-sol {
     display: flex;
     align-items: center;
