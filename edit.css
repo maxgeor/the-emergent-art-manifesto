@@ -8,15 +8,45 @@ header {
     margin-bottom: 3rem;
 }
 
-/* @media only screen and (max-width: 780px) {
-    .manifesto-number{
+.manifesto-title {
+    margin-bottom: 2rem;
+    color: #000;
+}
+
+@media only screen and (max-width: 780px) {
+    .manifesto-title {
         margin-bottom: 1.75rem;
     }
-} */
+}
 
-.manifesto-branch-title {
-    font-size: 2rem;
-    line-height: 2rem;
+.manifesto-title > h1 {
+    font-size: 2.25rem;
+    line-height: 2.25rem;
+    font-weight: normal;
+    line-height: 1;
+    margin: 0;
+    margin-bottom: 0.5rem;
+}
+
+.manifesto-title > h3 {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: normal;
+    margin: 0;
+}
+
+@supports (-webkit-touch-callout: none) {
+    .manifesto-title > h1 {
+        letter-spacing: -0.02rem;
+    }
+}
+
+@media only screen and (max-width: 780px) {
+    .manifesto-title > h1 {
+        font-size: 2rem;
+        line-height: 1;
+        margin-left: -0.2rem;
+    }
 }
 
 .manifesto-description {
@@ -47,77 +77,6 @@ header {
 
 .manifesto-description > ol > li:last-child {
     margin-bottom: 0;
-}
-
-.manifesto-description-callout {
-    color: #000;
-}
-
-.manifesto-title {
-    display: flex;
-    align-items: center;
-    margin-bottom: 1.75rem;
-    color: #000;
-}
-
-@media only screen and (max-width: 780px) {
-    .manifesto-title {
-        margin-bottom: 1.5rem;
-    }
-}
-
-.manifesto-number {
-    font-size: 2.5rem;
-    text-decoration-thickness: 2px;
-    text-underline-offset: 2px;
-    color: #0000ee;
-}
-
-@media only screen and (max-width: 780px) {
-    .manifesto-number {
-        font-size: 2.25rem;
-        text-decoration-thickness: 2px;
-        text-underline-offset: 2px;
-    }
-}
-
-.title-pointer {
-    font-size: 1.25rem;
-    line-height: 1.5rem;
-    margin: 0 1rem;
-}
-
-@media only screen and (max-width: 780px) {
-    .title-pointer {
-        margin: 0 0.875rem;
-    }
-}
-
-.title-your-manifesto {
-    font-size: 2.25rem;
-    line-height: 1;
-    margin-left: -0.3rem;
-}
-
-@supports (-webkit-touch-callout: none) {
-    .title-your-manifesto {
-        letter-spacing: -0.02rem;
-    }
-}
-
-@media only screen and (max-width: 780px) {
-    .title-your-manifesto {
-        font-size: 2rem;
-        line-height: 1;
-        margin-left: -0.3rem;
-    }
-}
-
-
-.manifesto-branched-number {
-    font-size: 1rem;
-    line-height: 1.5rem;
-    margin-left: 0.175rem;
 }
 
 .btn-container {
