@@ -348,6 +348,17 @@ header > p {
     color: #707070;
 }
 
+.take-a-few-notice {
+    margin-bottom: 1rem;
+}
+
+.hang-tight-notice {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    color: #707070;
+    margin-bottom: 0;
+}
+
 #manifesto {
     margin-top: 1.75rem;
     margin-bottom: 1rem;
