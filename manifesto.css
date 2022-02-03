@@ -150,7 +150,6 @@ header > a {
 @media only screen and (max-width: 780px) {
     .manifesto-title {
         font-size: 2.5rem;
-        line-height: 1;
         text-decoration-thickness: 2px;
         text-underline-offset: 2px;
     }
