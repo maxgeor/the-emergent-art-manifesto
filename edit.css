@@ -50,6 +50,11 @@ header {
     margin: 0;
 }
 
+.manifesto-title > h3 > a {
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0;
+}
+
 .manifesto-description {
     color: #444;
 }
