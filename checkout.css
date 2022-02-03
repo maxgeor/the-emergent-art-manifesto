@@ -93,7 +93,7 @@ header > h1 {
 }
 
 header > p {
-    color: #6D6D6D;
+    color: #707070;
     line-height: 1.5rem;
     margin: 0 5rem 0 0;
 }
@@ -149,7 +149,7 @@ header > p {
 .total-title {
     font-size: 0.875rem;
     line-height: 1rem;
-    color: #6D6D6D;
+    color: #707070;
     text-transform: uppercase;
     margin-right: 0.25rem;
     letter-spacing: 0.85px;
@@ -170,7 +170,7 @@ header > p {
 .total-title-currency {
     font-size: 0.75rem;
     line-height: 0.75rem;
-    color: #6D6D6D;
+    color: #707070;
     text-transform: none;
     white-space: nowrap;
     margin-right: 0.5rem;
@@ -316,7 +316,7 @@ header > p {
     font-size: 1.25rem;
     line-height: 1.75rem;
     font-weight: normal;
-    color: #6D6D6D;
+    color: #707070;
 }
 
 .checkout-card * h2 {
@@ -345,7 +345,7 @@ header > p {
     margin-top: 1rem;
     font-size: 0.875rem;
     line-height: 1.25rem;
-    color: #6D6D6D;
+    color: #707070;
 }
 
 #manifesto {
