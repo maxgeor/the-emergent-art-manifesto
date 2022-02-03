@@ -82,11 +82,30 @@
                         <h2 class="checkout-card-number">2</h2>
                         <div>
                             <h2>Pay the fee</h2>
-                            <p class="checkout-card-description take-a-few-notice">It'll take a few seconds for your payment to go through.</p>
-                            <p class="checkout-card-description hang-tight-notice">Make sure you don't close or refresh this page while your payment is processing.</p>
-                            <!-- <p class="error-message"><b>You don't have enough to cover the fee</b>. Add some SOL to your wallet then try reconnecting.</p> -->
-                            <!-- <p class="error-message">Looks like you <b>canceled the payment</b>. Try paying the fee again.</p> -->
-                            <!-- <p class="error-message">Looks like you tried to <b>pay without connecting a wallet</b>. Connect your wallet and try again.</p> -->
+                            <!-- <p class="checkout-card-description take-a-few-notice">It'll take a few seconds for your payment to go through.</p> -->
+                            <p class="checkout-card-description take-a-few-notice">Your fee could change while your payment is being processes. If you want, your payment can be cancelled if it gets too expensive.</p>
+                            <form id="slippage-form">
+                                <div class="radio-wrapper">
+                                    <input type="radio" name="no-cancel" value="0" id="slippage-0" checked>
+                                    <label for="slippage-0">Don't cancel</label>
+                                </div>
+                                <div class="radio-wrapper">
+                                    <input type="radio" name="$5-cancel" value="0" id="slippage-1">
+                                    <label for="slippage-1">Cancel if fee goes above $5</label>
+                                </div>
+                                <div class="radio-wrapper">
+                                    <input type="radio" name="$10-cancel" value="0" id="slippage-2">
+                                    <label for="slippage-2">Cancel if fee goes above $10</label>
+                                </div>
+                                <div class="radio-wrapper">
+                                    <input type="radio" name="$20-cancel" value="0" id="slippage-3">
+                                    <label for="slippage-3">Cancel if fee goes above $20</label>
+                                </div>
+                            </form>
+                            <p class="checkout-card-description hang-tight-notice">It'll take a few seconds for your payment to go through — don't close or refresh this page before then.</p>
+                            <p class="error-message"><b>You don't have enough to cover the fee</b>. Add some SOL to your wallet then try reconnecting.</p>
+                            <p class="error-message">Looks like you <b>canceled the payment</b>. Try paying the fee again.</p>
+                            <p class="error-message">Looks like you tried to <b>pay without connecting a wallet</b>. Connect your wallet and try again.</p>
                             <div id="pay-fee-card-button">
                                 <button>Pay $30.84 USD (0.04 SOL)</button>
                             </div>

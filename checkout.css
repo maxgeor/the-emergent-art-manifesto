@@ -356,6 +356,7 @@ header > p {
     font-size: 0.875rem;
     line-height: 1.25rem;
     color: #707070;
+    margin-top: 1rem;
     margin-bottom: 0;
 }
 
@@ -419,4 +420,22 @@ p + .error-message {
     margin-top: 1.25rem;
     font-size: 0.875rem;
     line-height: 1.25rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.radio-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.radio-wrapper > input {
+    margin-right: 0.5rem;
+}
+
+.radio-wrapper > label {
+    color: #444;
 }
