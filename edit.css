@@ -152,12 +152,12 @@ header {
 }
 
 #manifesto:hover {
-    border: 1px solid #bebebe;
+    border: 1px solid #b8b8b8;
 }
 
 #manifesto:focus {
-    border: 1px solid #a1a1a1;
-    outline: 4px solid rgba(0, 0, 0, 0.06);
+    border: 1px solid #999999;
+    outline: 4px solid rgba(0, 0, 0, 0.065);
 }
 
 #manifesto {
