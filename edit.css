@@ -21,9 +21,8 @@ header {
 
 .manifesto-title > h1 {
     font-size: 2.25rem;
-    line-height: 2.25rem;
+    line-height: 2.5rem;
     font-weight: normal;
-    line-height: 1;
     margin: 0;
     margin-bottom: 0.5rem;
     margin-left: -0.3rem;
@@ -38,7 +37,7 @@ header {
 @media only screen and (max-width: 780px) {
     .manifesto-title > h1 {
         font-size: 2rem;
-        line-height: 1;
+        line-height: 2.25rem;
         margin-left: -0.2rem;
     }
 }
