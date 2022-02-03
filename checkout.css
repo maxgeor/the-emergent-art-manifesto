@@ -111,7 +111,7 @@ header > p {
 @media only screen and (max-width: 780px) {
     .manifesto-preview-mobile-wrapper {
         display: block;
-        margin-top: 1.5rem;
+        margin-top: 1rem;
     }
 }
 
@@ -126,22 +126,29 @@ header > p {
     color: #444;
 }
 
+.showing-preview-toggle-text {
+    color: #444;
+}
+
 .manifesto-preview-mobile-wrapper > label > input {
     opacity: 0;
 }
 
 #manifesto-preview-mobile {
     display: none;
+    background-color: white;
     margin-top: 1rem;
-    padding: 1rem 1.5rem;
+    padding: 1.5rem;
     width: calc( - 54px);
-    height: 24rem;
+    height: 28rem;
     border: 1px solid rgb(218, 218, 218);
     overflow-y: scroll;
-    font-size: 0.875rem;
-    line-height: 1.25rem;
     color: #000;
     border-radius: 2px;
+}
+
+#manifesto-preview-mobile > p {
+    margin-bottom: 1rem;
 }
 
 .total {
