@@ -111,7 +111,7 @@ header > p {
 @media only screen and (max-width: 780px) {
     .manifesto-preview-mobile-wrapper {
         display: block;
-        margin-top: 1rem;
+        margin-top: 1.25rem;
     }
 }
 
@@ -121,7 +121,9 @@ header > p {
 }
 
 .showing-preview-toggle-nob {
-    margin-right: 0.25rem;
+    margin-left: -8px;
+
+    /* margin-right: 0.25rem; */
     font-size: 8px;
     line-height: 1.5rem;
     color: #444;

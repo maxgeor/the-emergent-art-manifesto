@@ -25,16 +25,26 @@
                     <!-- If someone feels a fee is high when it should cost $1-2, it probably means gas fees are riddiculous, so it's appropriate to wait for a better minting time.  -->
                     <div class="manifesto-preview-mobile-wrapper">
                         <label for="showing-preview-checkbox">
-                            <table>
+                            <!-- <svg class="showing-preview-toggle-nob" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M17 12L9.5 16.3301V7.66987L17 12Z" fill="#444444"/>
+                            </svg> -->
+                            <svg class="showing-preview-toggle-nob" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M16 12L10 15.4641V8.5359L16 12Z" fill="#444444"/>
+                            </svg>
+                            <p class="showing-preview-toggle-text">Show Manifesto preview</p>
+                            <!-- <table>
                                 <tr>
                                     <td>
-                                        <span class="showing-preview-toggle-nob">▶</span>
+                                        <svg class="showing-preview-toggle-nob" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M17 12L9.5 16.3301V7.66987L17 12Z" fill="#444444"/>
+                                        </svg>
+                                        
                                     </td>
                                     <td>
                                         <p class="showing-preview-toggle-text">Show Manifesto preview</p>
                                     </td>
                                 </tr>
-                            </table>
+                            </table> -->
                             <input type="checkbox" name="showing-preview-toggle" id="showing-preview-checkbox" />
                         </label>
                         <article id="manifesto-preview-mobile">
@@ -74,7 +84,7 @@
                         <div>
                             <h2>Connect your wallet</h2>
                             <p class="checkout-card-description">You can only mint <b>1 Manifesto per wallet</b>. If you've already minted one, use a new wallet.</p>
-                            <p class="checkout-card-note">If you don't have a Solana wallet, <a href="https://phantom.app/">download Phantom</a>.</p>
+                            <p class="checkout-card-note">Don't have a Solana wallet? <a href="https://phantom.app/">Download Phantom</a>.</p>
                             <!-- <p class="error-message">You've already minted a manifesto with that wallet. Try using another wallet.</p> -->
                             <!-- <p class="error-message">Looks like you stopped your wallet from connecting.</p> -->
                             <a href="success.html" id="connect-wallet-card-button">
