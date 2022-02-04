@@ -35,7 +35,7 @@ nav > a {
 }
 
 main {
-    margin-top: 2.5rem;
+    margin-top: 3rem;
 }
 
 .checkout-wrapper {
@@ -43,13 +43,14 @@ main {
     align-items: flex-start;
     justify-content: space-between;
     width: 100%;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 
 @media only screen and (max-width: 780px) {
     .checkout-wrapper {
         flex-direction: column;
         justify-content: start;
+        margin-bottom: 2rem;
     }
 }
 
