@@ -4,8 +4,8 @@
     }
 }
 
-header {
-    margin-bottom: 3rem;
+header.manifesto-edit-header {
+    margin-bottom: 3.5rem;
 }
 
 .manifesto-title {
