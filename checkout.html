@@ -16,18 +16,9 @@
             <section class="checkout-wrapper">
                 <header>
                     <h1 class="title-your-manifesto">Mint Your Manifesto</h1>
-                    <!-- This blurb about crypto prices changing should be written for non-crypto people -->
-                    <!-- Crypto folks already know that fees can change, so they'll start reading and skip (or skip it entirely and go right for the buttons) -->
-                        <!-- You should still bring it up, since it's a different experience than most checkouts -->
-                    <!-- Crypto fees can change with the coin -->
-                    <p>In crypto, fees change day-to-day. If your fee seems high, wait a day then come back.</p>
-                    <!-- Saying "wait a day and come back" would work over "x number is high and y number is low" because on Solana or an L2, the fees should be really cheap (a few bucks).  -->
-                    <!-- If someone feels a fee is high when it should cost $1-2, it probably means gas fees are riddiculous, so it's appropriate to wait for a better minting time.  -->
+                    <p>In crypto, fees change day-to-day. If your fee seems high, wait a day then come back. <a class="small-link" href="https://www.investopedia.com/terms/g/gas-ethereum.asp">Learn about Gas fees</a>.</p>
                     <div class="manifesto-preview-mobile-wrapper">
                         <label for="showing-preview-checkbox">
-                            <!-- <svg class="showing-preview-toggle-nob" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M17 12L9.5 16.3301V7.66987L17 12Z" fill="#444444"/>
-                            </svg> -->
                             <svg class="showing-preview-toggle-nob" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M16 12L10 15.4641V8.5359L16 12Z" fill="#444444"/>
                             </svg>
@@ -121,7 +112,9 @@
                                     <label for="slippage-3">Cancel if fee goes over $20</label>
                                 </div>
                             </form>
-                            <p class="checkout-card-description hang-tight-notice">It'll take a few seconds for your payment to go through — don't close or refresh this page before then.</p>
+                            <!-- <p class="checkout-card-description hang-tight-notice">It'll take a few seconds for your payment to go through — don't close or refresh this page before then.</p> -->
+                            <div class="callout wallet-callout">It'll take a few seconds for your payment to go through — don't close or refresh this page before then.</a>.</div>
+
                             <!-- <p class="error-message"><b>You don't have enough to cover the fee</b>. Add some SOL to your wallet then try reconnecting.</p> -->
                             <!-- <p class="error-message">Looks like you <b>canceled the payment</b>. Try paying the fee again.</p> -->
                             <!-- <p class="error-message">Looks like you tried to <b>pay without connecting a wallet</b>. Connect your wallet and try again.</p> -->
