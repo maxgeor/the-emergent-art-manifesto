@@ -15,6 +15,13 @@ html {
     font-weight: bold;
 }
 
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
 
 body {
     background-color: #f5f5f5;
@@ -35,7 +42,7 @@ body {
     align-items: center;
     justify-content: center;
     margin: 0;
-    padding: 1.5rem 0;
+    padding: 1.25rem 0;
     list-style: none;
 }
 
@@ -46,12 +53,22 @@ body {
 }
 
 #breadcrumbs > li {
-    height: 1.5rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #breadcrumbs > li > a {
-    padding: 0 0.5rem;
+    padding: 0 0.625rem;
     color: #0000ee;
+    height: 100%;
+    line-height: 2rem;
+}
+#breadcrumbs > li:first-child > a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #breadcrumbs > li:last-child::after {
@@ -61,12 +78,6 @@ body {
 #breadcrumbs > li::after {
     content: ">";
     font-size: 0.65rem;
-}
-
-.root-link {
-    height: 12px;
-    width: 9px;
-    border-bottom: 1px solid #0000EE;
 }
 
 .copied-manifesto {
