@@ -9,7 +9,6 @@
     <link href="edit.css" rel="stylesheet" />
 </head>
 <body>
-    <!-- Nav links always have to be blue, because you already know that you've visited them -->
     <nav>
         <a class="backdrop-link" href="index.html"></a>
         <ul id="breadcrumbs">
@@ -38,7 +37,29 @@
                             <li><span>Your Manifesto will become a <span class="emphasize">permanent branch</span> of <a href="manifesto.html">Manifesto 0</a></span></li>
                             <li><span>Anyone will be able to branch your Manifesto, forever.</span></li>
                         </ol>
-                        <div class="callout wallet-callout">Don't have a wallet? <a href="https://phantom.app/">Download Phantom</a> or <a href="https://ethereum.org/en/wallets/#:~:text=Ethereum%20wallets%20are%20applications%20that,funds%20and%20manage%20your%20ETH.">learn more about wallets</a>.</div>
+                        <div class="toggles">
+                            <div class="toggle-wrapper">
+                                <label for="toggle-1">
+                                    <svg class="toggle-nob" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M16 12L10 15.4641V8.5359L16 12Z" fill="#707070"/>
+                                    </svg>
+                                    <p class="toggle-title">What's a wallet?</p>
+                                    <input type="checkbox" name="toggle" id="toggle-1" />
+                                </label>
+                                <p class="toggle-content">Wallets are like accounts for blockchains. It holds your money and other stuff you own (like your Manifesto). If you don't have one </p>
+                            </div>
+                            <div class="toggle-wrapper">
+                                <label for="toggle-2">
+                                    <svg class="toggle-nob" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M16 12L10 15.4641V8.5359L16 12Z" fill="#707070"/>
+                                    </svg>
+                                    <p class="toggle-title">What's minting and why is there a fee?</p>
+                                    <input type="checkbox" name="toggle" id="toggle-2" />
+                                </label>
+                                <p class="toggle-content">Minting is when you permanently save something on a blockchain.</p>
+                            </div>
+                        </div>
+                        <!-- <div class="callout wallet-callout">Don't have a wallet? <a href="https://phantom.app/">Download this one</a> or <a href="https://ethereum.org/en/wallets/#:~:text=Ethereum%20wallets%20are%20applications%20that,funds%20and%20manage%20your%20ETH.">learn more about wallets</a>.</div> -->
                     </div>
 
                 </section>
@@ -56,7 +77,7 @@
                     <p><b class="emphasize">Your edits won't be saved</b>. You should save your Manifesto somewhere else, then paste it here.</p>
                     <!-- <p><b class="emphasize">Your manifesto can't be changed or deleted</b> after it's been minted. Make sure you're happy with it.</p> -->
                     <!-- <p><b class="emphasize">Pasted text will be stripped of styling</b>. That means your text can't be bolded, italicized, hyperlinked, etc.</p> -->
-                    <p><b class="emphasize">When pasting text from somewhere else, <em>we won't keep your formatting</em></b>. If you want to fully format your text, do it here.</p>
+                    <p><b class="emphasize">When pasting text, <em>we won't keep your formatting</em></b>. If you want to fully format your text, do it here.</p>
                     <!-- <p><b class="emphasize">When pasti text from somewhere else, <em>we won't keep your formatting</em></b>. If you want to fully format your text, do it below.</p> -->
                     <!-- <p><b class="emphasize">Your text will be unformatted</b>.</p>
                     <p><b class="emphasize">Your text will be unformatted</b>.</p>
@@ -135,4 +156,5 @@
         </main>
     </section>
 </body>
+<script src="edit.js"></script>
 </html>
