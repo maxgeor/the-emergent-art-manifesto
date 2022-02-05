@@ -8,6 +8,35 @@ header.manifesto-edit-header {
     margin-bottom: 3.5rem;
 }
 
+.copied-manifesto-wrapper {
+    margin: 0 2rem;
+}
+
+@media only screen and (max-width: 780px) {
+    .copied-manifesto-wrapper {
+        margin: 0;
+    }
+}
+
+.copied-manifesto {
+    height: 28px;
+    box-shadow: 0 4px 25px -5px rgb(0 0 0 / 0.08), 0 0 8px -4px rgb(0 0 0 / 0.19);
+    background-color: white;
+    z-index: -1;
+    border-bottom: 1px solid #f9f9f9;
+    box-sizing: border-box;
+    max-width: calc(52rem - 2rem * 2);
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 780px) {
+    .copied-manifesto {
+        margin: 0;
+        height: 24px;
+        box-shadow: 0 4px 25px -5px rgb(0 0 0 / 0.15), 0 0 8px -4px rgb(0 0 0 / 0.24);
+    }
+}
+
 .manifesto-title {
     margin-bottom: 2rem;
     color: #000;

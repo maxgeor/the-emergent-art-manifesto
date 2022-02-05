@@ -15,26 +15,29 @@ html {
     font-weight: bold;
 }
 
+body {
+    background-color: #f5f5f5;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
 nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-}
-
-
-body {
-    background-color: #f5f5f5;
-    height: 100%;
-    margin: 0 auto;
+    /* max-width: 60rem; */
+    width: calc(52rem - 80px * 2);
     width: 100%;
-    max-width: 52rem;
+    margin: 0 auto;
 }
 
-.backdrop-link {
+nav > .backdrop-link {
     display: block;
     height: 100%;
-    width: calc((100vw - 52rem) / 2);
+    width: calc((100vw - calc(52rem - 80px * 2)) / 2);
+    
 }
 
 #breadcrumbs {
@@ -44,11 +47,13 @@ body {
     margin: 0;
     padding: 1.25rem 0;
     list-style: none;
+    flex-wrap: wrap;
+    width: calc(52rem - 80px * 2);
 }
 
 @media only screen and (max-width: 780px) {
     #breadcrumbs {
-        padding: 1rem 0;
+        padding: 1rem 1.5rem;
     }
 }
 
@@ -65,38 +70,25 @@ body {
     height: 100%;
     line-height: 2rem;
 }
+
 #breadcrumbs > li:first-child > a {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: -1px;
+    /* margin-right: -1px; */
 }
 
 #breadcrumbs > li:last-child::after {
     content: "";
 }
 
-#breadcrumbs > li::after {
+#breadcrumbs > li::before {
     content: ">";
     font-size: 0.65rem;
 }
 
-.copied-manifesto {
-    height: 28px;
-    margin: 0 2rem;
-    box-shadow: 0 4px 25px -5px rgb(0 0 0 / 0.08), 0 0 8px -4px rgb(0 0 0 / 0.19);
-    background-color: white;
-    z-index: -1;
-    border-bottom: 1px solid #f9f9f9;
-    box-sizing: border-box;
-}
-
-@media only screen and (max-width: 780px) {
-    .copied-manifesto {
-        margin: 0;
-        height: 24px;
-        box-shadow: 0 4px 25px -5px rgb(0 0 0 / 0.15), 0 0 8px -4px rgb(0 0 0 / 0.24);
-    }
+#breadcrumbs > li:first-child::before {
+    content: none;
 }
 
 main {
@@ -105,6 +97,8 @@ main {
     background-color: white;
     min-height: calc(90vh - 64px);
     width: 100%;
+    max-width: 52rem;
+    margin: 0 auto;
 }
 
 @media only screen and (max-width: 780px) {
