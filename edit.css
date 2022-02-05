@@ -119,7 +119,6 @@ header.manifesto-edit-header {
     display: flex;
     flex-direction: column;
     border-bottom: 1px solid #ededed;
-    padding: 0.5rem 0;
 }
 
 .toggle-wrapper > label {
@@ -127,6 +126,7 @@ header.manifesto-edit-header {
     align-items: center;
     height: 1.5rem;
     color: #444;
+    padding: 0.5rem 0;
 }
 
 .toggle-wrapper > label:last-child {
@@ -150,7 +150,7 @@ header.manifesto-edit-header {
 
 .toggle-content {
     display: none;
-    margin: 0.75rem 0 0.75rem 1rem ;
+    margin: 0.25rem 0 0.75rem 1rem ;
 }
 
 
