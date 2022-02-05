@@ -5,7 +5,7 @@
 }
 
 header.manifesto-edit-header {
-    margin-bottom: 2.5rem;
+    margin-bottom: 3.5rem;
 }
 
 .manifesto-title {
@@ -102,12 +102,12 @@ header.manifesto-edit-header {
 }
 
 .toggles {
-    margin-top: 1.5rem;
+    margin-top: 1.75rem;
 }
 
 @media only screen and (max-width: 780px) {
     .toggles {
-        margin-top: 1.25rem;
+        margin-top: 1.5rem;
     }
 }
 
@@ -127,6 +127,7 @@ header.manifesto-edit-header {
     height: 1.5rem;
     color: #444;
     padding: 0.5rem 0;
+    cursor: pointer;
 }
 
 .toggle-wrapper > label:last-child {
@@ -165,7 +166,7 @@ header.manifesto-edit-header {
     .btn-container {
         display: flex;
         flex-direction: row;
-        margin-top: 0.25rem;
+        margin-top: 0.5rem;
     }
 }
 

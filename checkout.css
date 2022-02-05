@@ -350,6 +350,20 @@ header > p {
     }
 }
 
+.checkout-card * h2 {
+    margin-top: 0;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-style: italic;
+    margin-bottom: 1rem;
+}
+
+@supports (-webkit-touch-callout: none) {
+    .checkout-card * h2 {
+        letter-spacing: -0.02rem;
+    }
+}
+
 .checkout-card-overlay {
     position: absolute;
     top: 0;
@@ -368,20 +382,6 @@ header > p {
     line-height: 1.75rem;
     font-weight: normal;
     color: #707070;
-}
-
-.checkout-card * h2 {
-    margin-top: 0;
-    font-size: 1.25rem;
-    line-height: 1.75rem;
-    font-style: italic;
-    margin-bottom: 1rem;
-}
-
-@supports (-webkit-touch-callout: none) {
-    .checkout-card * h2 {
-        letter-spacing: -0.02rem;
-    }
 }
 
 .checkout-card-description {
@@ -492,11 +492,9 @@ form {
 }
 
 .callout {
-    margin-top: 1.25rem;
-    background-color: #f5f5f5;
-    border-radius: 2px;
-    border: 1px solid #dadada;
-    padding: 0.75rem;
+    margin-top: 1rem;
+    border-top: 1px solid #ededed;
+    padding-top: 1rem;
     font-size: 0.875rem;
     line-height: 1.25rem;
     color: #707070;
