@@ -45,7 +45,7 @@ nav > .backdrop-link {
     align-items: center;
     justify-content: center;
     margin: 0;
-    padding: 1.5rem 0;
+    padding: 1.25rem 0;
     list-style: none;
     flex-wrap: wrap;
     width: calc(52rem - 80px * 2);
