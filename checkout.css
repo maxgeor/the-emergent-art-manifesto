@@ -462,8 +462,8 @@ button:active {
     }
 }
 
-p + .error-message {
-    border-radius: 3px;
+.error-message {
+    border-radius: 2px;
     background-color: #f7eff4;
     border: 1px solid #ecdbd8;
     color: #8d5375;
@@ -503,4 +503,55 @@ form {
 a.small-link {
     font-size: 0.875rem;
     line-height: 1.25rem;
+}
+
+a.very-small-link {
+    font-size: 0.75rem;
+    line-height: 1.25rem;
+}
+
+.warning-message {
+    display: flex;
+    align-items: center;
+    border-radius: 2px;
+    background-color: #f1efcc;
+    border: 1px solid #cac58e;
+    color: #8d5375;
+    padding: 0.5rem 0.75rem;
+    margin-top: 1.25rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    color: #928e63;
+}
+
+/* .success-message {
+    display: flex;
+    align-items: center;
+    border-radius: 2px;
+    background-color: #daf0e6;
+    border: 1px solid #bcdfcf;
+    color: #8d5375;
+    padding: 0.5rem 0.75rem;
+    margin-top: 1.25rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    color: #489e77;
+} */
+
+.success-message {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 0.25rem;
+    color: #489e77;
+}
+
+.success-message > .check-icon {
+    margin-right: 0.25rem;
+}
+
+.use-different-wallet-link {
+    margin-left: 1.5rem;
 }
