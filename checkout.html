@@ -65,12 +65,10 @@
                             <p class="checkout-card-note">Don't have a Solana wallet? <a href="https://phantom.app/">Download Phantom</a>.</p>
                             <!-- <p class="error-message">You've already minted a manifesto with that wallet. Try using another wallet.</p> -->
                             <!-- <p class="error-message">Looks like you stopped your wallet from connecting.</p> -->
-                            <a href="success.html" id="connect-wallet-card-button">
-                                <button>Connect wallet</button>
-                            </a>
+                            <button id="connect-wallet-btn">Connect wallet</button>
                         </div>
                     </div>
-                    <div id="connect-wallet-card" class="checkout-card">
+                    <div id="successful-connect-wallet-card" class="checkout-card">
                         <h2 class="checkout-card-number">1</h2>
                         <div>
                             <h2>Connect your wallet</h2>
@@ -83,8 +81,8 @@
                                     <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
                                   </svg>
                                 <p class="success-text">Connected to <b>0x968...5dD</b></p>
-                                </div>
-                            <p class="warning-message">Looks like you stopped your wallet from connecting.</p>
+                            </div>
+                            <!-- <p class="warning-message">Looks like you stopped your wallet from connecting.</p> -->
                             <!-- <p class="error-message">You've already minted a manifesto with that wallet. Try using another wallet.</p> -->
                             <!-- <p class="error-message">Looks like you stopped your wallet from connecting.</p> -->
                             <a class="small-link use-different-wallet-link" href="#">Use a different wallet</a>
@@ -108,11 +106,10 @@
                         </div>
                     </div> -->
                     <div id="pay-fee-card" class="checkout-card">
-                        <!-- <div class="checkout-card-overlay"></div> -->
+                        <div class="checkout-card-overlay"></div>
                         <h2 class="checkout-card-number">2</h2>
                         <div>
                             <h2>Pay the fee</h2>
-                            <!-- <p class="checkout-card-description take-a-few-notice">It'll take a few seconds for your payment to go through.</p> -->
                             <p class="checkout-card-description take-a-few-notice"><b>Your fee can change</b> while your payment is processing. If you want, your payment can be cancelled if it gets too expensive.</p>
                             <form id="slippage-form">
                                 <div class="radio-wrapper">
@@ -138,9 +135,10 @@
                             <!-- <p class="error-message"><b>You don't have enough to cover the fee</b>. Add some SOL to your wallet then try reconnecting.</p> -->
                             <!-- <p class="error-message">Looks like you <b>canceled the payment</b>. Try paying the fee again.</p> -->
                             <!-- <p class="error-message">Looks like you tried to <b>pay without connecting a wallet</b>. Connect your wallet and try again.</p> -->
-                            <div id="pay-fee-card-button">
+                            <button id="pay-fee-btn">Pay $30.84 USD (0.04 SOL)</button>
+                            <!-- <a href="success.html" id="pay-fee-btn">
                                 <button>Pay $30.84 USD (0.04 SOL)</button>
-                            </div>
+                            </a> -->
                         </div>
                     </div>
                 </section>

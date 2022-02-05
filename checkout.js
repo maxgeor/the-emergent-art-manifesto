@@ -17,3 +17,17 @@ toggles.forEach(toggle => {
       }  
     });
 });
+
+document.querySelector('#connect-wallet-btn').addEventListener('click', () => {
+  setTimeout(() => {
+    document.querySelector('#connect-wallet-card').style.display = 'none';
+    document.querySelector('#successful-connect-wallet-card').style.display = 'flex';
+    document.querySelector('.checkout-card-overlay').style.display = 'none';
+  }, 500);
+});
+
+document.querySelector('#pay-fee-btn').addEventListener('click', () => {
+  setTimeout(() => {
+    window.location.href = "https://manifesto-omega.vercel.app/success.html";
+  }, 500);
+});

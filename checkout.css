@@ -364,6 +364,10 @@ header > p {
     }
 }
 
+#successful-connect-wallet-card {
+    display: none;
+}
+
 .checkout-card-overlay {
     position: absolute;
     top: 0;
@@ -539,19 +543,16 @@ a.very-small-link {
 } */
 
 .success-message {
+    display: none;
     font-size: 0.875rem;
     line-height: 1.25rem;
     display: flex;
     align-items: center;
     margin-top: 1rem;
-    margin-bottom: 0.25rem;
+    margin-bottom: 1.5rem;
     color: #489e77;
 }
 
 .success-message > .check-icon {
     margin-right: 0.25rem;
-}
-
-.use-different-wallet-link {
-    margin-left: 1.5rem;
 }
