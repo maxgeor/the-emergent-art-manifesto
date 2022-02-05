@@ -131,13 +131,7 @@ header.manifesto-edit-header {
 }
 
 .toggles {
-    margin-top: 1.75rem;
-}
-
-@media only screen and (max-width: 780px) {
-    .toggles {
-        margin-top: 1.5rem;
-    }
+    margin-top: 1.5rem;
 }
 
 .toggle-wrapper:first-child {
