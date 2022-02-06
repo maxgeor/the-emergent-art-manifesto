@@ -208,6 +208,7 @@ button {
     border: 1px solid #8a8a8a;
     border-radius: 2px;
     width: 100%;
+    -webkit-appearance: none;
 }
 
 @supports (-webkit-touch-callout: none) {
