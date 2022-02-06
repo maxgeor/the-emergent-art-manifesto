@@ -446,6 +446,7 @@ button {
     border: 1px solid #8a8a8a;
     border-radius: 2px;
     margin-top: 1.75rem;
+    -webkit-appearance: none;
 }
 
 button:hover {
