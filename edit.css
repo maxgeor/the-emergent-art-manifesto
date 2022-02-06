@@ -5,7 +5,13 @@
 }
 
 header.manifesto-edit-header {
-    margin-bottom: 3.5rem;
+    margin-bottom: 3.25rem;
+}
+
+@media only screen and (max-width: 780px) {
+    header.manifesto-edit-header {
+        margin-bottom: 3.5rem;
+    }
 }
 
 .copied-manifesto-wrapper {
@@ -203,7 +209,6 @@ header.manifesto-edit-header {
     .btn-container {
         display: flex;
         flex-direction: row;
-        margin-top: 0.5rem;
     }
 }
 
