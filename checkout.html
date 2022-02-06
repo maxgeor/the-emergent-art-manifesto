@@ -16,7 +16,7 @@
             <section class="checkout-wrapper">
                 <header>
                     <h1 class="title-your-manifesto">Mint Your Manifesto</h1>
-                    <p>In crypto, fees change day-to-day. If your fee seems high, wait a day then come back. The average fee is <b>$3.05 <span class="small-te">USD</span></b>.</p>
+                    <p>In crypto, fees change day-to-day. If your fee seems high, wait a day then come back (the average fee is <b><span class="small-text">$</span>3.05 <span class="small-text">USD</span></b>).</p>
                     <div class="toggle-wrapper">
                         <label for="toggle">
                             <svg class="toggle-nob" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -62,7 +62,7 @@
                         <div>
                             <h2>Connect your wallet</h2>
                             <p class="checkout-card-description">You can only mint <b>1 Manifesto per wallet</b>. If you've already minted one, use a new wallet.</p>
-                            <p class="checkout-card-note">Don't have a Solana wallet? <a href="https://phantom.app/">Download Phantom</a>.</p>
+                            <p class="checkout-card-note">Don't have a wallet? <a href="https://phantom.app/">Download Phantom</a>.</p>
                             <!-- <p class="error-message">You've already minted a manifesto with that wallet. Try using another wallet.</p> -->
                             <!-- <p class="error-message">Looks like you stopped your wallet from connecting.</p> -->
                             <button id="connect-wallet-btn">Connect wallet</button>
@@ -73,32 +73,19 @@
                         <div>
                             <h2>Connect your wallet</h2>
                             <p class="checkout-card-description">You can only mint <b>1 Manifesto per wallet</b>. If you've already minted one, use a new wallet.</p>
-                            <div class="success-message">
+                            <!-- <div class="message message-box error-message">
+                                <p>Connected to <b>0x968...5dD</b>, but you've <b>already minted a Manifesto</b> with this wallet. Try using another one.</p>
+                            </div> -->
+                            <!-- <p class="message message-box error-message">Looks like you stopped your wallet from connecting. Try connecting again.</p> -->
+                            <!-- <button>Connect to another wallet</button> -->
+                            
+                            <div class="message success-message">
                                 <p class="success-text">✓ Connected to <b>0x968...5dD</b></p>
+                                <a class="very-small-link use-different-wallet-link" href="#">Change</a>
                             </div>
-                            <!-- <p class="warning-message">Looks like you stopped your wallet from connecting.</p> -->
-                            <!-- <p class="error-message">You've already minted a manifesto with that wallet. Try using another wallet.</p> -->
-                            <!-- <p class="error-message">Looks like you stopped your wallet from connecting.</p> -->
-                            <a class="small-link use-different-wallet-link" href="#">Use a different wallet</a>
                         </div>
                     </div>
-                    <!-- <div id="connect-wallet-card" class="checkout-card">
-                        <h2 class="checkout-card-number">2</h2>
-                        <div>
-                            <h2>Confirm your Manifesto</h2>
-                            <p class="checkout-card-description">This is what your Manifesto will look like. Make sure you're happy with it.</p>
-                            <div id="connect-wallet-card-button">
-                                <button>Yes, I'm happy with how it looks</button>
-                            </div>
-                            <article id="manifesto">
-                                <p>This is an emergent art manifesto exemplar.</p>
-                                <p>This is an emergent art manifesto exemplar. This is an emergent art manifesto exemplar. This is an emergent art manifesto exemplar. This is an emergent art manifesto exemplar.</p>
-                                <p>THIS IS THE EMERGENT ART MANIFESTO EXAMPLAR. This is an emergent art manifesto exemplar.</p>
-                                <p>This is an emergent art manifesto exemplar. This is an emergent art manifesto exemplar. This is an emergent art manifesto exemplar. This is an emergent art manifesto exemplar. This is an emergent art manifesto exemplar. This is an emergent art manifesto exemplar. This is an emergent art manifesto exemplar. This is an emergent art manifesto exemplar. This is an emergent art manifesto exemplar. This is an emergent art manifesto exemplar. This is an emergent art manifesto exemplar. This is an emergent art manifesto exemplar. This is an emergent art manifesto exemplar. This is an emergent art manifesto exemplar. This is an emergent art manifesto exemplar. </p>
-                                <p>This is an emergent art manifesto exemplar. This is an emergent art manifesto exemplar. This is an emergent art manifesto exemplar. This is an emergent art manifesto exemplar. This is an emergent art manifesto exemplar. This is an emergent art manifesto exemplar. This is an emergent art manifesto exemplar. This is an emergent art manifesto exemplar. This is an emergent art manifesto exemplar. This is an emergent art manifesto exemplar. This is an emergent art manifesto exemplar. This is an emergent art manifesto exemplar. This is an emergent art manifesto exemplar. This is an emergent art manifesto exemplar. This is an emergent art manifesto exemplar. </p>
-                            </article>
-                        </div>
-                    </div> -->
+
                     <div id="pay-fee-card" class="checkout-card">
                         <div class="checkout-card-overlay"></div>
                         <h2 class="checkout-card-number">2</h2>
@@ -124,7 +111,7 @@
                                 </div>
                             </form>
                             <!-- <p class="checkout-card-description hang-tight-notice">It'll take a few seconds for your payment to go through — don't close or refresh this page before then.</p> -->
-                            <div class="callout wallet-callout">It'll take a few seconds for your payment to go through — don't close or refresh this page before then.</div>
+                            <div class="notice wallet-notice">It'll take a few seconds for your payment to go through — don't close or refresh this page before then.</div>
 
                             <!-- <p class="error-message"><b>You don't have enough to cover the fee</b>. Add some SOL to your wallet then try reconnecting.</p> -->
                             <!-- <p class="error-message">Looks like you <b>canceled the payment</b>. Try paying the fee again.</p> -->
