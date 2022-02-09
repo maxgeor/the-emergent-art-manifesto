@@ -414,6 +414,15 @@ header > p {
     margin-bottom: 0;
 }
 
+.payment-processing-notice {
+    display: none;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    color: #707070;
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
+
 #manifesto {
     margin-top: 1.75rem;
     margin-bottom: 1rem;
@@ -436,13 +445,8 @@ header > p {
     margin-bottom: 0.875rem;
 }
 
-.notice {
+#slippage-form {
     margin-top: 1rem;
-    border-top: 1px solid #e7e7e7;
-    padding-top: 1rem;
-    font-size: 0.875rem;
-    line-height: 1.25rem;
-    color: #707070;
 }
 
 button {
@@ -518,10 +522,15 @@ a.small-link {
     margin-bottom: 0;
 }
 
+.connected-to-wallet-gray {
+    color: #707070;
+    margin-bottom: -0.5rem;
+}
+
 .success-message {
     display: flex;
     align-items: baseline;
-    color: #06963a;
+    color: #04865d;
 }
 
 .success-message > .success-text {
@@ -531,7 +540,7 @@ a.small-link {
 .error-message {
     background-color: #FFF1F3;
     border: 1px solid #f0dcdd;
-    color: #A7585B;
+    color: #AC5353;
 }
 
 .small-text {

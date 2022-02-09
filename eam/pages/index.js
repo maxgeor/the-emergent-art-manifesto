@@ -19,14 +19,12 @@ export default function Home() {
         <section className='flex flex-col items-start'>
           {manifestos.map(manifesto => {
             return (
-              <article className='flex items-baseline space-x-2'>
-                <Link href={`manifesto/${manifesto.id}`}><a>{manifesto.id}</a></Link>
-                {/* <Link href={{ pathname: '/manifesto', query: { id: manifesto.id } }}><a>{manifesto.id}</a></Link> */}
+              <article key={manifesto.id} className='flex items-baseline space-x-2'>
+                <Link href={`/manifesto/${manifesto.id}`}><a>{manifesto.id}</a></Link>
                 {manifesto.id !== 0 && (
                   <div className='flex items-baseline space-x-2'>
                     <p className='text-sm'>from</p>
-                    <Link href={`manifesto/${manifesto.from}`}><a>{manifesto.from}</a></Link>
-                    {/* <Link href={{ pathname: '/manifesto', query: { id: manifesto.from } }}><a>{manifesto.from}</a></Link> */}
+                    <Link href={`/manifesto/${manifesto.from}`}><a>{manifesto.from}</a></Link>
                   </div>
                 )}
               </article>

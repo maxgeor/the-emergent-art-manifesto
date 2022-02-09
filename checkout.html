@@ -73,11 +73,12 @@
                         <div>
                             <h2>Connect your wallet</h2>
                             <p class="checkout-card-description">You can only mint <b>1 Manifesto per wallet</b>. If you've already minted one, use a new wallet.</p>
-                            <!-- <div class="message message-box error-message">
-                                <p>Connected to <b>0x968...5dD</b>, but you've <b>already minted a Manifesto</b> with this wallet. Try using another one.</p>
-                            </div> -->
+                            <!-- <p class="message connected-to-wallet-gray">✓ Connected to <b>0x968...5dD</b>, but...</p>
+                            <div class="message message-box error-message">
+                                <p>You've <b>already minted a Manifesto</b> with this wallet. Try using another one.</p>
+                            </div>
+                            <button>Connect to another wallet</button> -->
                             <!-- <p class="message message-box error-message">Looks like you stopped your wallet from connecting. Try connecting again.</p> -->
-                            <!-- <button>Connect to another wallet</button> -->
                             
                             <div class="message success-message">
                                 <p class="success-text">✓ Connected to <b>0x968...5dD</b></p>
@@ -91,7 +92,7 @@
                         <h2 class="checkout-card-number">2</h2>
                         <div>
                             <h2>Pay the fee</h2>
-                            <p class="checkout-card-description take-a-few-notice"><b>Your fee can change</b> while your payment is processing. If you want, your payment can be cancelled if it gets too expensive.</p>
+                            <p class="checkout-card-description"><b>Your fee can change</b> while your payment is processing. If you want, your payment can be cancelled if it gets too expensive.</p>
                             <form id="slippage-form">
                                 <div class="radio-wrapper">
                                     <input type="radio" name="slippage-cancel" value="0" id="slippage-0" checked>
@@ -105,18 +106,17 @@
                                     <input type="radio" name="slippage-cancel" value="0" id="slippage-2">
                                     <label for="slippage-2">Cancel if fee goes over $10</label>
                                 </div>
-                                <div class="radio-wrapper">
+                                <!-- <div class="radio-wrapper">
                                     <input type="radio" name="slippage-cancel" value="0" id="slippage-3">
                                     <label for="slippage-3">Cancel if fee goes over $20</label>
-                                </div>
+                                </div> -->
                             </form>
-                            <!-- <p class="checkout-card-description hang-tight-notice">It'll take a few seconds for your payment to go through — don't close or refresh this page before then.</p> -->
-                            <div class="notice wallet-notice">It'll take a few seconds for your payment to go through — don't close or refresh this page before then.</div>
-
+                            
                             <!-- <p class="error-message"><b>You don't have enough to cover the fee</b>. Add some SOL to your wallet then try reconnecting.</p> -->
                             <!-- <p class="error-message">Looks like you <b>canceled the payment</b>. Try paying the fee again.</p> -->
                             <!-- <p class="error-message">Looks like you tried to <b>pay without connecting a wallet</b>. Connect your wallet and try again.</p> -->
                             <button id="pay-fee-btn">Pay $3.84 USD (0.04 SOL)</button>
+                            <div class="notice payment-processing-notice">It'll take a few seconds for your payment to go through — don't close or refresh this page before then.</div>
                             <!-- <a href="success.html" id="pay-fee-btn">
                                 <button>Pay $30.84 USD (0.04 SOL)</button>
                             </a> -->

@@ -261,8 +261,6 @@ header.manifesto-edit-header {
 
 @media only screen and (max-width: 780px) {
     .manifesto-notice {
-        border: 1px solid rgb(202, 202, 202);
-        border-bottom: 0;
         padding: 1rem;
         margin: 0 0.5rem;
     }
@@ -288,8 +286,6 @@ header.manifesto-edit-header {
 
 @media only screen and (max-width: 780px) {
     #manifesto {
-        border: 1px solid rgb(202, 202, 202);
-        border-top: 1px solid rgb(218, 218, 218);
         padding: 1.25rem 1rem;
         margin: 0 0.5rem;
     }
