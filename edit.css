@@ -146,7 +146,7 @@ header.manifesto-edit-header {
 .toggle-wrapper > label {
     display: flex;
     align-items: center;
-    line-height: 1.5rem;
+    height: 1.5rem;
     color: #444;
     padding: 0.5rem 0;
     cursor: pointer;
@@ -167,8 +167,9 @@ header.manifesto-edit-header {
     color: #707070;
 }
 
-.toggle-title {
+Toggle-wrapper * .toggle-title {
     color: #707070;
+    margin: 0;
 }
 
 .toggle-content {
@@ -183,9 +184,6 @@ header.manifesto-edit-header {
 .toggle-content > p:last-child {
     margin-bottom: 0.75rem;
 }
-
-
-
 
 .btn-container {
     display: flex;
@@ -222,6 +220,17 @@ header.manifesto-edit-header {
     #mint-btn {
         margin-right: 0.5rem;
         margin-bottom: 0;
+    }
+}
+
+button {
+    width: 156.63px;
+    -webkit-appearance: none;
+}
+
+@media only screen and (max-width: 780px) {
+    button {
+        width: 100%;
     }
 }
 
