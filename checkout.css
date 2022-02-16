@@ -172,7 +172,7 @@ header > p {
         align-items: flex-start;
         justify-content: space-between;
         max-width: none;
-        border-top: 1px solid #dadada;
+        border-top: 1px solid #e1e1e1;
         padding-top: 1rem;
     }
 }
