@@ -134,13 +134,13 @@ header.manifesto-edit-header {
 }
 
 .toggle-wrapper:first-child {
-    border-top: 1px solid #ededed;
+    border-top: 1px solid #ececec;
 }
 
 .toggle-wrapper {
     display: flex;
     flex-direction: column;
-    border-bottom: 1px solid #ededed;
+    border-bottom: 1px solid #ececec;
 }
 
 .toggle-wrapper > label {
