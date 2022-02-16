@@ -415,12 +415,13 @@ header > p {
 }
 
 .payment-processing-notice {
-    display: none;
     font-size: 0.875rem;
     line-height: 1.25rem;
     color: #707070;
     margin-top: 1rem;
     margin-bottom: 0;
+    padding-top: 1rem;
+    border-top: #ececec 1px solid;
 }
 
 #manifesto {

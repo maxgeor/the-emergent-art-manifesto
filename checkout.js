@@ -30,10 +30,6 @@ const payBtn = document.querySelector('#pay-fee-btn');
 
 payBtn.addEventListener('click', () => {
   setTimeout(() => {
-    payBtn.disabled = true;
-    document.querySelector('.payment-processing-notice').style.display = 'block';
-  }, 600);
-  setTimeout(() => {
     window.location.href = "https://manifesto-omega.vercel.app/success.html";
   }, 5000);
 });
