@@ -26,10 +26,11 @@ document.querySelector('#connect-wallet-btn').addEventListener('click', () => {
   }, 500);
 });
 
-const payBtn = document.querySelector('#pay-fee-btn');
+// const payBtn = document.querySelector('#pay-fee-btn');
+// console.log(payBtn)
 
-payBtn.addEventListener('click', () => {
-  setTimeout(() => {
-    window.location.href = "https://manifesto-omega.vercel.app/success.html";
-  }, 5000);
-});
+// payBtn.addEventListener('click', (e) => {
+//   setTimeout(() => {
+//     url = e.target
+//   }, 4000);
+// });
