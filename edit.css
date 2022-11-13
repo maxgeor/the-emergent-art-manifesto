@@ -29,7 +29,7 @@ header.manifesto-edit-header {
     box-shadow: 0 4px 25px -5px rgb(0 0 0 / 0.08), 0 0 8px -4px rgb(0 0 0 / 0.19);
     background-color: white;
     z-index: -1;
-    border-bottom: 1px solid #f9f9f9;
+    border-bottom: 1px solid #f6f6f6;
     box-sizing: border-box;
     max-width: calc(52rem - 2rem * 2);
     margin: 0 auto;
@@ -79,7 +79,7 @@ header.manifesto-edit-header {
 
 .manifesto-title > h3 > a {
     text-decoration-thickness: 1px;
-    text-underline-offset: 0;
+    text-underline-offset: 1.5px;
 }
 
 .manifesto-description {
@@ -174,7 +174,7 @@ Toggle-wrapper * .toggle-title {
 
 .toggle-content {
     display: none;
-    margin: 0.25rem 0 1rem 1rem ;
+    margin: -0.25rem 0 1rem 1rem ;
 }
 
 .toggle-content > p:first-child {
