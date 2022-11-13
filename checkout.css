@@ -337,7 +337,7 @@ header > p {
     display: flex;
     position: relative;
     background-color: white;
-    border: 1px solid #e7e7e7;
+    border: 1px solid #eaeaea;
     box-shadow: 0 2px 12px -4px rgb(0 0 0 / 5%), 0 0 4px -4px rgb(0 0 0 / 10%);
     padding: 1.5rem;
     border-radius: 4px;
